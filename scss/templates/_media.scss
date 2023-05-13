@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1200px) {
+  .app {
+    &__title {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .app {
+    &__title {
+      font-size: 2.5rem;
+    }
+
+    .card {
+      &-img {
+        width: 45%;
+      }
+
+      &__noUser {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .app {
+    &__title {
+      font-size: 2rem;
+    }
+
+    .form {
+      &__input, &__btn {
+        font-size: 1.1rem;
+      }
+    }
+
+    .card {
+      flex-direction: column;
+
+      &__noUser {
+        font-size: 2rem;
+      }
+
+      .info {
+        margin-top: 25px;
+        padding: 0 0 50px;
+
+        &__name {
+          font-size: 1.7rem;
+        }
+
+        &__bio {
+          font-size: 1.1rem;
+        }
+
+        .additional {
+          &__company, &__location, &__id, &__type, &__followers, &__email {
+            font-size: 1.1rem;
+          }
+        }
+
+        .btn {
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    .repos {
+      &__title {
+        font-size: 1.7rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .app {
+    &__title {
+      font-size: 1.5rem;
+    }
+
+    .form {
+      &__input, &__btn {
+        font-size: 1rem;
+      }
+    }
+
+    .card {
+      &__noUser {
+        font-size: 1.5rem;
+      }
+
+      &-img {
+        width: 50%;
+      }
+
+      .info {
+        padding-bottom: 25px;
+        width: 100%;
+
+        &__name {
+          font-size: 1.5rem;
+        }
+
+        &__bio {
+          font-size: 1rem;
+        }
+
+        .additional {
+          flex-direction: column;
+          align-items: flex-start;
+
+          &__company, &__location, &__id, &__type, &__followers, &__email {
+            font-size: 1rem;
+          }
+        }
+
+        .btn {
+          font-size: 1rem;
+          width: 100%;
+        }
+      }
+    }
+
+    .repos {
+      padding-top: 0;
+
+      &__title {
+        font-size: 1.5rem;
+      }
+
+      &-wrapper {
+        .elem {
+          font-size: .9rem;
+        }
+      }
+    }
+  }
+}
